@@ -87,7 +87,7 @@ color: gray-light
 ---
 layout: top-title
 color: gray-light
-align: l
+align: c
 title: Extensions
 ---
 
@@ -133,7 +133,7 @@ DIRAC is coded for being flexible and extendable
 ---
 layout: top-title
 color: gray-light
-align: l
+align: c
 title: history
 ---
 
@@ -425,7 +425,7 @@ curl -L \
 
 ---
 layout: top-title
-align: lm
+align: c
 color: gray-light
 title: wlcg
 ---
@@ -617,7 +617,7 @@ DIRAC Web APIs with <devicon-fastapi-wordmark class="text-7xl align-middle inlin
 ---
 layout: top-title
 color: gray-light
-align: lm
+align: c
 title: CLI
 ---
 
@@ -758,7 +758,7 @@ author: 'Some of you out there'
 ---
 layout: top-title
 color: gray-light
-align: lm
+align: c
 title: tokens
 ---
 
@@ -840,7 +840,7 @@ sequenceDiagram
 ---
 layout: top-title
 color: gray-light
-align: l
+align: c
 title: Migration
 ---
 
@@ -932,7 +932,7 @@ titlewidth: is-3
 ---
 layout: top-title
 color: gray-light
-align: l
+align: c
 title: Versions
 ---
 
@@ -1161,7 +1161,7 @@ align: r
 ---
 layout: top-title
 color: gray-light
-align: l
+align: c
 title: FAQ
 ---
 
