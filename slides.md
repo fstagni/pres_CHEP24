@@ -831,7 +831,16 @@ title: FutureExtensions
     DiracX aims to provide an easy way to do so.
 </span>
 
-<SpeechBubble position="t" color='amber' shape="round"  v-drag="[400,290,220,140]">
+
+```toml
+# entrypoints in pyproject.toml
+
+[project.entry-points."diracx.db.sql"]
+AuthDB = "diracx.db.sql:AuthDB"
+JobDB = "<extension>.db.sql:ExtendedJobDB"
+```
+
+<SpeechBubble position="t" color='amber' shape="round"  v-drag="[400,310,220,140]">
 For DiracX and DiracX-Web we already provide reference extensions
 </SpeechBubble>
 
@@ -1014,7 +1023,7 @@ titlewidth: is-3
 
 ```sh
 git clone https://github.com/DIRACGrid/diracx-charts
-diracx-charts/run_demo.sh
+diracx-charts/run_demo.sh # this is run for each and every commit in Github Actions
 ```
  
 
